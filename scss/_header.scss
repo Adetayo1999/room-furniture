@@ -1,0 +1,27 @@
+.header {
+  padding: 1.2rem 4rem;
+  position: fixed;
+  width: 100%;
+
+  .container {
+    display: flex;
+    align-items: center;
+  }
+
+  .logo {
+    margin-right: 50px;
+    h4 {
+      font-size: 24px;
+      color: hsl(0, 0%, 100%);
+      font-weight: 500;
+    }
+  }
+
+  ul {
+    display: flex;
+
+    li {
+      margin-right: 17px;
+    }
+  }
+}

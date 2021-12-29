@@ -1,0 +1,30 @@
+.about {
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+  img {
+    object-fit: contain;
+  }
+
+  &__center {
+    padding: 2rem;
+
+    h4 {
+      padding-bottom: 0.6rem;
+      font-weight: 700;
+      letter-spacing: 0.4em;
+      text-transform: uppercase;
+      font-size: 12px;
+      color: hsl(0, 0%, 27%);
+    }
+
+    p {
+      color: hsl(0, 0%, 63%);
+      font-size: 12px;
+      line-height: 15px;
+    }
+  }
+}

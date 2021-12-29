@@ -1,0 +1,62 @@
+.banner {
+  height: 65vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  &__left {
+    width: 60%;
+
+    img {
+      width: 100%;
+      object-fit: contain;
+    }
+  }
+
+  &__right {
+    width: 40%;
+    background-color: hsl(0, 0%, 100%);
+    padding: 4rem;
+    padding-top: 5rem;
+    height: 100%;
+    position: relative;
+
+    h2 {
+      font-size: 35px;
+      color: hsl(0, 0%, 27%);
+    }
+
+    p {
+      padding: 1.5rem 0;
+      color: hsl(0, 0%, 63%);
+    }
+
+    a {
+      color: hsl(0, 0%, 27%);
+      letter-spacing: 1em;
+      font-weight: 700;
+      font-size: 12px;
+    }
+
+    .links {
+      position: absolute;
+      height: 65px;
+      width: 120px;
+      bottom: 0;
+      left: 0;
+      background: black;
+      padding: 0.8rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      img {
+        width: 20px;
+        height: 20px;
+        object-fit: contain;
+        cursor: pointer;
+      }
+    }
+  }
+}
